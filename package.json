@@ -1,0 +1,25 @@
+{
+  "name": "shiftify",
+  "version": "0.0.1",
+  "description": "shift key manager",
+  "main": "index.js",
+  "scripts": {
+    "init": "tsc -init",
+    "build": "tsc",
+    "watch": "tsc -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jonir227/shiftify.git"
+  },
+  "author": "jonir227",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Jonir227/shiftify/issues"
+  },
+  "homepage": "https://github.com/Jonir227/shiftify#readme",
+  "dependencies": {
+    "@types/chrome": "0.0.88",
+    "typescript": "^3.6.3"
+  }
+}
