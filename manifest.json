@@ -2,7 +2,7 @@
   "name": "Shiftify",
   "version": "0.1",
   "description": "Saves the Shift keys and Helps Activate",
-  "permissions": ["storage", "activeTab"],
+  "permissions": ["storage", "activeTab", "webNavigation"],
   "background": {
     "scripts": ["dist/background.js"],
     "persistent": false
